@@ -1,0 +1,74 @@
+.search-container {
+  background: #fff;
+  height: 40px;
+  border-radius: 30px;
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.form-x input {
+  margin-left: 50px;
+  height: 50px;
+  width: 400px;
+  border-radius: 10px;
+}
+.btn {
+  padding: 10px 25px;
+  background-color: black;
+  color: red;
+  border-radius: 10px;
+}
+.dropdown-item a {
+  color: black;
+}
+
+/* carousel */
+.carousel-item {
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+.dk-bg,
+.main-nav {
+  background-color: #1b1b1b44;
+}
+.price {
+  color: #ee2822;
+}
+.btn-buy-now {
+  background-image: linear-gradient(to bottom right, #db3232 0%, #da1818 100%);
+  color: white;
+  font-weight: 700;
+  border-radius: 8px;
+  padding: 9px 25px;
+  border: none;
+}
+
+.btn-buy-now:hover {
+  background-image: linear-gradient(to bottom right, #ffffff 0%, #fefffe 100%);
+  border: 2px solid #ff136f;
+}
+
+.rating li {
+  list-style: none;
+  color: goldenrod;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .form-x input {
+    margin: 20px auto;
+    height: 50px;
+    width: 250px;
+    border-radius: 10px;
+  }
+
+  .search-btn {
+    margin: 20px 5px;
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: red;
+    border-radius: 10px;
+  }
+}
